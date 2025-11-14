@@ -31,3 +31,37 @@ All transactions (deposit/withdrawal) should update this balance during the sess
 Exit Condition
 
 The program should terminate gracefully when the user selects “Exit” or chooses not to retry after a wrong PIN.
+
+
+Language: Java
+
+Input method: Scanner class for user input
+
+Use of:
+
+if-else statements for PIN validation
+
+switch-case for menu options
+
+while loops for repeated operations
+
+=====Input flows ======
+
+===== Welcome to Java ATM =====
+Enter your 4-digit PIN: 1234
+✅ PIN Verified Successfully!
+
+===== ATM MENU =====
+1. Check Balance
+2. Deposit Money
+3. Withdraw Money
+4. Exit
+Enter your choice: 1
+💰 Your current balance is: ₹10000.0
+
+
+Optional (for extended version):
+
+Use of Classes & Methods for modular design
+
+Use of Exception Handling for invalid inputs
